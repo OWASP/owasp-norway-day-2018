@@ -18,7 +18,7 @@ body {
 }
 
 header {
-	background: #fff url('../images/owasp-norway-day2.svg') 2em center no-repeat;
+	background: #fff url('../images/owasp-norway-day2.svg') 9em center no-repeat;
 	background-size: auto 5em;
 	height: 7em;
 	display: block; 
@@ -47,3 +47,16 @@ section.image {
 		padding-left: 10em;
 	}
 }
+
+
+@media (max-width: 500px) {
+	header {
+		background-position: 0em center;
+	}
+	section.image {
+		div {
+			padding-left: 1em;
+		}
+	}
+}
+
