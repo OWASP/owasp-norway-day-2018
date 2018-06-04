@@ -1,10 +1,49 @@
 ---
 ---
+@import "reset";
+
+h1 {
+	font-size: 250%;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
+h2 {
+	font-size: 200%;
+	font-weight: bold;
+	padding-bottom: 0.25em;
+}
 
 body {
   font-family: helvetica, verdana;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: center;
+}
+
+header {
+	background: #fff url('../images/owasp-norway-day2.svg') 2em center no-repeat;
+	background-size: auto 5em;
+	height: 7em;
+	display: block; 
+	margin: 1em;
+}
+
+footer {
+	text-align: center;
+	font-size: 70%;
+	position: absolute;
+	bottom: 0em;
+	width: 100%;
+	padding: 5em 0em 1em 0em;	
+}
+
+section.image {
+	background: url('../images/simpleback.svg'), url('../images/barcode.jpg');
+	background-repeat: no-repeat;
+	background-size: cover, cover;
+	background-position: 0% 25%;
+	height: 20em;
+	padding-top: 10em;
+
+	div {
+		color: #fff;
+		padding-left: 10em;
+	}
 }
