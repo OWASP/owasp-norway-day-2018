@@ -2,6 +2,31 @@
 ---
 @import "reset";
 
+@font-face {
+    font-family: 'Aller-Italic';
+    src:url('../fonts/Aller-Italic.ttf.woff') format('woff'),
+        url('../fonts/Aller-Italic.ttf.svg#Aller-Italic') format('svg'),
+        url('../fonts/Aller-Italic.ttf.eot'),
+        url('../fonts/Aller-Italic.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src:url('../fonts/Aller.ttf.woff') format('woff'),
+        url('../fonts/Aller.ttf.svg#Aller') format('svg'),
+        url('../fonts/Aller.ttf.eot'),
+        url('../fonts/Aller.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
 h1 {
 	font-size: 250%;
 	font-weight: bold;
@@ -14,15 +39,17 @@ h2 {
 }
 
 body {
-  font-family: helvetica, verdana;
+  font-family: 'Aller', sans-serif;
 }
 
 header {
-	background: #fff url('../images/owasp-norway-day2.svg') 9em center no-repeat;
+	background: transparent url('../images/owasp-norway-day2-white.svg') 10em center no-repeat;
 	background-size: auto 5em;
 	height: 7em;
 	display: block; 
-	margin: 1em;
+	margin: 0em;
+	margin-bottom: -7em;
+	position: relative;
 }
 
 footer {
@@ -32,6 +59,7 @@ footer {
 	bottom: 0em;
 	width: 100%;
 	padding: 5em 0em 1em 0em;	
+	background-color: #fff;
 }
 
 section.image {
@@ -39,9 +67,8 @@ section.image {
 	background-repeat: no-repeat;
 	background-size: cover, cover;
 	background-position: 0% 25%;
-	height: 20em;
-	padding-top: 10em;
-
+	height: 40em;
+	padding-top: 15em;
 	div {
 		color: #fff;
 		padding-left: 10em;
