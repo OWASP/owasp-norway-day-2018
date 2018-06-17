@@ -55,8 +55,6 @@ header {
 footer {
 	text-align: center;
 	font-size: 70%;
-	position: absolute;
-	bottom: 0em;
 	width: 100%;
 	padding: 5em 0em 1em 0em;	
 	background-color: #fff;
@@ -67,12 +65,31 @@ section.image {
 	background-repeat: no-repeat;
 	background-size: cover, cover;
 	background-position: 0% 25%;
-	height: 40em;
+	height: 30em;
 	padding-top: 15em;
+	h1 {
+		text-align: left;
+	}
 	div {
 		color: #fff;
 		padding-left: 10em;
 	}
+}
+section.map {
+	background: url('../images/uio.png');
+	background-size: cover;
+	background-position: center center;
+	height: 20em;
+}
+section {
+	padding: 3em 10%;
+	h1 {
+		text-align: center;
+	}
+	&.center {
+		text-align: center;
+	}
+	p { line-height: 1.5em;}
 }
 
 
