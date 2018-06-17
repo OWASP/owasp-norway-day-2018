@@ -22,10 +22,16 @@
     font-style: normal;
 }
 
+$blue: #003087;
 
 * {
 	box-sizing: border-box;
 }
+
+a, a:hover, a:visited {
+	color: $blue;
+}
+
 
 h1 {
 	font-size: 250%;
@@ -89,7 +95,16 @@ section {
 	&.center {
 		text-align: center;
 	}
-	p { line-height: 1.5em;}
+	p { line-height: 1.5em; padding-bottom: 0.5em;}
+}
+
+
+section.inverse {
+	background: $blue;
+	color: #fff;
+	a, a:hover, a:visited {
+		color: #fff;
+	}
 }
 
 
