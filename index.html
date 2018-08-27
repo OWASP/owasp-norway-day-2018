@@ -12,21 +12,35 @@ footer: Main page photo by <a href="https://www.flickr.com/people/91545223@N00">
 </section>
 
 <section class="center">
-	<h1>Call for Papers is open</h1>
-	<p>Closes 12th of August 2018</p>
-	<p>Submit here: <a href="https://easychair.org/conferences/?conf=owaspno2018">https://easychair.org/conferences/?conf=owaspno2018</a></p>
+	<h1>Call for Papers is closed</h1>
+	<p>Program will be published soon</p>
 </section>
 
 <section class="inverse">
 	<p>The OWASP Norway Chapter is 10 years this year, and we are celebrating this with a one-day single-track conference at the University of Oslo. The talks will be selected after the Call for Papers closes, and the selected topics are DevSecOps, Blue team, Cloud Security, End User Security, Mobile Application Security, API security, Integrations, War stories, Role integration, Secure Software Development Lifecycle, Secure Code Assessments, Security Architecture and gerenal Web Application Security.</p>
 	<p>The conference will be targeted at developers, security engineers and security testers, and will be limited to 200 participants.</p>
-	<p>If you are interested in sponsoring the event, please contact: <a href="mailto:kelly.santalucia@owasp.org">kelly.santalucia@owasp.org</a></p>
+	
 </section>
 
 <section class="center">
 	<h1>Become a sponsor</h1>
 	<p>We need your help to make this event happen. Sponsorship options are available in the <a href="/docs/sponsorship.pdf">sponsorship document</a>.</p>
+	<p>If you are interested in sponsoring the event, please contact: <a href="mailto:kelly.santalucia@owasp.org">kelly.santalucia@owasp.org</a></p>
 </section>
 
 <section class="map">
 </section>
+
+<section class="team-list">
+	<h1>The Team</h1>
+	<ul >
+	{% for member in site.data.team %}
+	<li>
+		<div style="background-image: url(../assets/images/{{member.image | default: 'owasp_logo.png'}})" alt="{{member.name}} {{member.company}}"></div>
+		<h4>{{member.name}}</h4>
+		<span class="role">{{member.company}}</span>
+	</li>
+	{% endfor %}
+	</ul>
+</section>
+

@@ -1,6 +1,8 @@
 ---
 ---
 @import "reset";
+@import "vars";
+@import "teamlist";
 
 @font-face {
     font-family: 'Aller-Italic';
@@ -22,7 +24,7 @@
     font-style: normal;
 }
 
-$blue: #003087;
+
 
 * {
 	box-sizing: border-box;
@@ -106,6 +108,8 @@ section.inverse {
 		color: #fff;
 	}
 }
+
+
 
 
 @media (max-width: 500px) {
