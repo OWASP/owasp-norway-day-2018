@@ -12,10 +12,6 @@ section.team-list {
 			color: $blue;
 		}
 
-		x&:after {
-			content: "";
-			flex: auto;
-		}
 
 		> li {
 			max-width: 50%;
