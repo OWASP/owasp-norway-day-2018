@@ -41,8 +41,8 @@ footer: Main page photo by <a href="https://www.flickr.com/people/91545223@N00">
 </section>
 
 <section class="team-list">
-	<h1>The Team</h1>
-	<ul >
+	<h1>The Conference Team</h1>
+	<ul>
 	{% for member in site.data.team %}
 	<li>
 		<div style="background-image: url(../assets/images/{{member.image | default: 'owasp_logo.png'}})" alt="{{member.name}} {{member.company}}"></div>
