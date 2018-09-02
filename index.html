@@ -11,9 +11,18 @@ footer: Main page photo by <a href="https://www.flickr.com/people/91545223@N00">
 	</div>
 </section>
 
-<section class="center">
-	<h1>Call for Papers is closed</h1>
-	<p>Program will be published soon</p>
+
+<section class="team-list">
+	<h1>Our speakers</h1>
+	<ul >
+	{% for member in site.data.speakers %}
+	<li>
+		<div style="background-image: url(../assets/images/{{member.image | default: 'owasp_logo.png'}})" alt="{{member.name}} {{member.company}}"></div>
+		<h4>{{member.name}}</h4>
+		<span class="role">{{member.company}}</span>
+	</li>
+	{% endfor %}
+	</ul>
 </section>
 
 <section class="inverse">

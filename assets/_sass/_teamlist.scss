@@ -6,7 +6,7 @@ section.team-list {
 		flex-wrap: wrap;
 		list-style: none;
 		padding: 1em 0em;
-		justify-content: space-between;
+		justify-content: space-around;
 
 		h4 {
 			color: $blue;
@@ -36,3 +36,18 @@ section.team-list {
 		}
 	}
 }
+
+
+@media (max-width: 500px) {
+	section.team-list {
+		ul {
+			li {
+				div {
+					width: 100px;
+					height: 100px;
+				}
+			}
+		}
+	}
+}
+

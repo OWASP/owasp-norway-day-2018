@@ -1,0 +1,24 @@
+- name: Scott Helme
+  company: Security Researcher
+  image: scott.jpg
+- name: Andrew Martin
+  company: Control Plane
+  image: andy.jpg
+- name: Monica Verma
+  company: PwC Digital Trust
+  image: monica.jpg
+- name: Alan Saied
+  company: Visma
+  image: alan.jpeg
+- name: Audun Ytterdal
+  company: Schibsted Media Group
+  image: audun.jpeg
+- name: Chris Dale
+  company: Netsecurity
+  image: chris.jpeg
+- name: Patricia Aas
+  company: TurtleSec
+  image: patricia_aas.jpg
+- name: Thomas Gøytil
+  company: Klaveness Digital
+  image: thomas.jpg
