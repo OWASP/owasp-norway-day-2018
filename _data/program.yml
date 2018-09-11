@@ -1,0 +1,58 @@
+- name: Scott Helme
+  bio: | 
+    Scott Helme is a security researcher, consultant and international speaker. He can often be found talking about web security and performance online and helping organisations better deploy both.
+    Founder of report-uri.io, a free CSP report collection service, and securityheaders.io, a free security analyser, Scott has a tendency to always be involved in building something new and exciting.
+  title: What We’ve Learned From Billions of Security Reports
+  abstract: |
+    Running one of the largest security reporting platforms of its kind, we handle billions of security reports for our customers every single month. Come and learn how we've scaled from handling 10,000 reports per month to 10,000 reports per second and the many evolutions our infrastructure has gone through.
+    Alongside that come and see how, with our bird’s-eye view of such a diverse ecosystem, we’ve helped identify malware in a multinational organisation, had a malicious browser plugin taken down and much more!
+- name: Andrew Martin
+  bio: |
+    Andrew has a strong test-first engineering ethos gained architecting and deploying high-traffic web applications. Proficient in systems development, testing, and maintenance, he is comfortable profiling and securing every tier of a bare metal or cloud native application, and has battle-hardened experience delivering containerised solutions to enterprise clients. He is a co-founder at https://control-plane.io 
+  title: The State of Your Supply Chain
+  abstract: |
+    Container security often focuses on runtime best-practices whilst neglecting delivery of the software in the supply chain. Application, library, and OS vulnerabilities are a likely route to data exfiltration, and emerging technologies in the container ecosystem offer a new opportunity to mitigate this risk. 
+    Treating containers as immutable artefacts and injecting configuration allows us to "upgrade" images by rebuilding and shipping whole software bundles, avoiding configuration drift and state inconsistencies. This makes it possible to constantly patch software, and to easily enforce governance of artefacts both pre- and post-deployment.
+    In this talk we detail an ideal, security-hardened container supply chain, describe the current state of the ecosystem, and dig into specific tools. Grafeas, Kritis, in-toto, Clair, Micro Scanner, TUF, and Notary are covered, and we demo how to gate container image pipelines and deployments on cryptographically verified supply chain metadata.
+- name: Monica Verma 
+  bio: |
+    Monica is a Senior Manager and Subject Matter Expert (SME) for Cloud & Security Architecture in PwC Digital Trust. She has ~10 years of experience in Information and IT Security Consultancy and Management in various sectors such as finance, banking, health and insurance. She studied and lived in Germany for 10 years where she worked in varied research institutes and companies in Germany such as Allianz Insurances, Metafinanz AG, Siemens AG, and Fraunhofer Institute of Technology to name a few. 
+    She has worked in varied infosec domains and gained specialization in Cloud Security & Cloud Risk Assessments, Digital Identity, GRC, IT Risk Management Framework, ISMS, Data Security & Privacy, Application Security, Secure Coding and Ethical Hacking. She has delivered security projects aligned with standard frameworks such as COBIT, NIST, ISO 27001/27002, ISO 27017/27018 and CSA CCM.
+    Prior to PwC, Monica Verma worked as Senior Security and IAM Manager at Norges Bank Investment Management in the Security Operations team. Sec Ops was responsible for cyber security, IAM, cloud security and other security operations within the organization.
+  title: Building an agile Security Organization
+  abstract: |
+    In 2017, Vipps was carved out from DNB. It is now owned by multiple banks, and Vipps has had to re-engineer its approach to Security Governance.  
+    PwC had been contracted by Vipps in Winter 2017 to build an agile Information Security Management System (ISMS). Additionally, PwC was engaged to help with the implementation of metrics & security monitoring within the organization, handling security incident operations and assisting Vipps with ISMS and Security Governance following the merger. 
+    In this talk, we'll go through the business case of how we built agile ISMS, how PwC intends to support Vipps' ISMS and Security Architecture, and how this could transform the way Vipps is seen and experienced by its customers. 
+- name: Chris Dale
+  bio: |
+    Chris Dale is the Head of the Penetration Testing & Incident Handling groups at Netsecurity, a mid-sized company based out of Norway. Along with significant security expertise, Chris has a background in System Development, IT-Operations and Security Management. This broad experience in IT is advantageous when managing penetration tests, incidents and while teaching.
+    Chris is passionate about security - both physical and in IT, and regularly presents and teaches at conferences and workshops. Chris holds the GCIH, GPEN, GSLC, and GMOB certifications. He also has a B.S in Informatics, with specialization in programming from Norwegian University of Science and Technology. He participates in panel debates and is invited to participate in Government related working groups, to recommend and improve the Norwegian private and public sectors.
+  title: When exploits are blind
+  abstract: |
+    Demonstration based presentation. Only intro and outro powerpoint slides. 
+    Demonstrate user enumeration using timing attacks. Especially prominent when companies have implemented bcrypt/scrypt/pbkdf#2. Attack vector which is very useful in many cases today, notably against Lync/Skype4B installations today. Further password spray into a solution. 
+    Discover, analyze and fully exploit reverse-shell command injection. How to find these across large systems? How dose vulnerability scanners work, and how do they detect this? Introduction to Burp Collaborator. Introduction to script for merging attack data into hundreds of Burp Collaborators. 
+    Discover, analyze and fully exploit blind SQL Injection. Demonstrating Burp Intruder cluster bomb attack to enumerate out table data.
+- name: Thomas Gøytil
+  bio: |
+    Thomas works as head of security at Klaveness Digital, a company leading the digitization of shipping. His background is as a developer and security tester. Thomas is passionate about web application security and loves to sharpen his skills by doing bug bounty and helping developers to write secure code. 
+  title: Staying on course with off-cors - How to test your application for misconfigured CORS headers
+  abstract: |
+    Configuring CORS headers on a web applications or API can be hard for developers, especially if you want to allow multiple cross-origin domains. To make the configuration secure is even harder. In this talk I will show how to test for misconfigured CORS headers, show how to configure CORS headers correctly, common pitfalls and attacks. I will end the talk with a release of my new open source tool - Off-cors. Off-cors is a small scanner written in Python to check for misconfigured CORS headers in your web application or API. Off-cors can be integrated with your DevOps pipeline, run as part of your bug bounty recon pipeline, or just as a standalone client against a single web application or API.
+- name: Alan Saied
+  bio:
+  title: Machine Learning for Security
+  abstract: |
+    The ability to mathematically classify patterns, predict events and/or identify abnormalities within a wide range of data is known as Machine Learning. For the purpose of this conference , we explain the power of data and how it can be used with Machine Learning models to identify abnormal behaviour within complex environments. We also explain the ingredients and the steps required to build a Machine Learning models to serve security tasks. This will further be followed by its complications in terms of false positives, accuracy of detection and validity of model and how this can be improved. 
+- name: Patricia Aas
+  bio: |
+    Patricia is a programmer who has worked mostly in C++ and Java. She has spent her career continuously delivering from the same code-base to a large user base. She has worked on two browsers (Opera and Vivaldi), worked as a Java consultant and on embedded telepresence endpoints for Cisco. She is focused on the maintainability and flexibility of software architecture, and how to extend it to provide cutting edge user experiences. Her focus on the end user has led her work more and more toward privacy and security, and she has recently started her own company, TurtleSec, hoping to contribute positively to the infosec and C++ communities. She is also involved in the Include C++ organization hoping to improve diversity and inclusion in the C++ community.
+  title: Linux Security APIs and the Chromium Sandbox
+  abstract: |
+    The Linux Security and Isolation APIs have become the basis of some of the most useful features server-side, providing the isolation required for efficient containers. However, these APIs also form the basis of the Chromium Sandbox on Linux, and we will study them in that context in this talk.
+- name: Audun Ytterdal
+  bio: Head of Operations Schibsted Media.
+  title: VG under Attack! War Stories from the Ops Trenches 
+  abstract: |
+    A collection of old and new war stories from Norways largest news site as seen from the perspective of the VG/Schibsted operation including stuff like  Nazis, Pink Blogs, Anonymous, FBI, and how to build you own DDOS canon.

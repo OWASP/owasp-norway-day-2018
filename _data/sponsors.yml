@@ -1,0 +1,10 @@
+- type: Platinum
+  sponsors:
+  - logo: mnemonic.svg
+    name: mnemonic
+    url: https://www.mnemonic.no/
+- type: Standard
+  sponsors:
+  - logo: bekk.png
+    name: BEKK
+    url: https://www.bekk.no/

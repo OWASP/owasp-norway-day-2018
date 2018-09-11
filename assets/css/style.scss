@@ -3,6 +3,7 @@
 @import "reset";
 @import "vars";
 @import "teamlist";
+@import "sponsors";
 
 @font-face {
     font-family: 'Aller-Italic';
@@ -26,6 +27,8 @@
 
 
 
+
+
 * {
 	box-sizing: border-box;
 }
@@ -34,6 +37,15 @@ a, a:hover, a:visited {
 	color: $blue;
 }
 
+
+a.button {
+	margin-top: 2em;
+	background: #fff;
+	color: $blue;
+	padding: 0.5em 1em;
+	border-radius: 1em 1em;
+	text-decoration: none;
+}
 
 h1 {
 	font-size: 250%;
@@ -77,6 +89,9 @@ section.image {
 	padding-top: 15em;
 	h1 {
 		text-align: left;
+	}
+	h2 {
+		padding-bottom: 1em;
 	}
 	div {
 		color: #fff;

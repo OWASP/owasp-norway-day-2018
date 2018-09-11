@@ -8,6 +8,7 @@ footer: Main page photo by <a href="https://www.flickr.com/people/91545223@N00">
 	<div>
 		<h1>OWASP Norway Day</h1>
 		<h2>November 20th 2018</h2>
+		<a class="button" href="https://www.eventbrite.com/e/owasp-norway-day-2018-tickets-50096149933">Register</a>
 	</div>
 </section>
 
@@ -31,6 +32,21 @@ footer: Main page photo by <a href="https://www.flickr.com/people/91545223@N00">
 	
 </section>
 
+<section class="sponsors">
+	<h1>Our sponsors</h1>
+{% for sponsortype in site.data.sponsors %}
+	{% if sponsortype.sponsors %}
+  	<h3>{{ sponsortype.type }} sponsors</h3>
+	  <div class="{{ sponsortype.type }}">
+		{% for sponsor in sponsortype.sponsors %}
+	    <a style="background-image: url(/assets/images/{{sponsor.logo}});{% if sponsor.backgroundSize %}background-size: {{sponsor.backgroundSize}};{% endif %}" title="{{sponsor.name}}" href="{{sponsor.url}}"></a>
+	  {% endfor %}
+	  </div>
+  {% endif %}
+{% endfor %}
+</section>
+
+
 <section class="center">
 	<h1>Become a sponsor</h1>
 	<p>We need your help to make this event happen. Sponsorship options are available in the <a href="/docs/sponsorship.pdf">sponsorship document</a>.</p>
@@ -39,6 +55,8 @@ footer: Main page photo by <a href="https://www.flickr.com/people/91545223@N00">
 
 <section class="map">
 </section>
+
+
 
 <section class="team-list">
 	<h1>The Conference Team</h1>
