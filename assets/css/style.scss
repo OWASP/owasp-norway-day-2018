@@ -39,7 +39,8 @@ a, a:hover, a:visited {
 
 
 a.button {
-	margin-top: 2em;
+	display: inline-block;
+	margin-top: 1em;
 	background: #fff;
 	color: $blue;
 	padding: 0.5em 1em;
@@ -85,7 +86,6 @@ section.image {
 	background-repeat: no-repeat;
 	background-size: cover, cover;
 	background-position: 0% 25%;
-	height: 30em;
 	padding-top: 15em;
 	h1 {
 		text-align: left;
@@ -120,7 +120,9 @@ section.inverse {
 	background: $blue;
 	color: #fff;
 	a, a:hover, a:visited {
-		color: #fff;
+		&:not(.button) {
+			color: #fff;
+		}
 	}
 }
 
