@@ -47,6 +47,9 @@ a.button {
 	border-radius: 1em 1em;
 	text-decoration: none;
 }
+section.inverse a.button {
+	color: $blue !important;
+}
 
 h1 {
 	font-size: 250%;
@@ -126,6 +129,20 @@ section.inverse {
 	}
 }
 
+section.program {
+	h3 {
+		font-size: 110%;
+		font-weight: bold;
+		margin-bottom: 0.2em;
+		margin-top: 0.5em;
+		span::before {
+			content: " - ";
+		}
+	}
+	p.bio { 
+		font-style: italic; 
+	}
+}
 
 
 

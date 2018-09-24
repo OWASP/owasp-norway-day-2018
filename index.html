@@ -24,6 +24,7 @@ footer: Main page photo by <a href="https://www.flickr.com/people/91545223@N00">
 	</li>
 	{% endfor %}
 	</ul>
+	<div style="text-align: center"><a href="#program">See the full program</a></div>
 </section>
 
 <section class="inverse">
@@ -62,9 +63,18 @@ footer: Main page photo by <a href="https://www.flickr.com/people/91545223@N00">
 <section class="map">
 </section>
 
+<section class="program">
+	<h1><a name="program">The Program</a></h1>
+	{% for talk in site.data.program %}
+		<div class="talk">
+			<h3>{{talk.name}} <span>{{talk.title}}</span></h3>
+			<p>{{talk.abstract}}</p>
+			<p class="bio">{{talk.bio}}</p>
+		</div>
+	{% endfor %}
+</section>
 
-
-<section class="team-list">
+<section class="team-list inverse">
 	<h1>The Conference Team</h1>
 	<ul>
 	{% for member in site.data.team %}
