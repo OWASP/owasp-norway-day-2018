@@ -3,6 +3,11 @@
   - logo: mnemonic.svg
     name: mnemonic
     url: https://www.mnemonic.no/
+- type: Gold
+  sponsors:
+  - logo: vipps.png
+    name: Vipps
+    url: https://www.vipps.no/
 - type: Standard
   sponsors:
   - logo: bekk.png
