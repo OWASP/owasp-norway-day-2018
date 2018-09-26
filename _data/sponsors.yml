@@ -5,6 +5,9 @@
     url: https://www.mnemonic.no/
 - type: Gold
   sponsors:
+  - logo: f5.png
+    name: F5 Networks
+    url: https://www.f5.com/
   - logo: vipps.png
     name: Vipps
     url: https://www.vipps.no/
