@@ -59,11 +59,11 @@ footer: Main page photo by <a href="https://www.flickr.com/people/91545223@N00">
 <section class="program">
 	<h1><a name="program">The Program</a></h1>
 	{% for talk in site.data.program %}
-		<div class="talk">
-			<h3>{{talk.name}} <span>{{talk.title}}</span></h3>
+		<details>
+			<summary><span>{{talk.title}}</span> {{talk.name}}</summary>
 			<p>{{talk.abstract}}</p>
 			<p class="bio">{{talk.bio}}</p>
-		</div>
+		</details>
 	{% endfor %}
 </section>
 
