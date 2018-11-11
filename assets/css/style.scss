@@ -4,6 +4,7 @@
 @import "vars";
 @import "teamlist";
 @import "sponsors";
+@import "detailed-program";
 
 @font-face {
     font-family: 'Aller-Italic';
@@ -80,7 +81,7 @@ footer {
 	text-align: center;
 	font-size: 70%;
 	width: 100%;
-	padding: 5em 0em 1em 0em;	
+	padding: 0em 0em 0em 0em;
 	background-color: #fff;
 }
 
@@ -144,7 +145,20 @@ section.program {
 	}
 }
 
+detailed-program-header {
+	background: transparent url('../images/owasp-norway-day2-white.svg') center no-repeat;
+	background-size: auto 10em;
+	height: 10em;
+	display: block; 
+	margin: 0em;
+	margin-bottom: -10em;
+	position: relative;
+}
 
+section.detailed-program-header-image {
+	@extend section.image;
+	padding-top: 8em;
+}
 
 @media (max-width: 500px) {
 	header {
@@ -156,4 +170,3 @@ section.program {
 		}
 	}
 }
-

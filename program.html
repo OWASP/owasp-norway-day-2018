@@ -1,0 +1,46 @@
+---
+title: OWASP Norway Day
+footer: Main page photo by <a href="https://www.flickr.com/people/91545223@N00">Benson Kua</a>
+---
+
+<detailed-program-header>
+</detailed-program-header>
+
+<section class="detailed-program-header-image" title="Photo by: Benson Kua from Toronto, Canada">
+</section>
+
+<section class="detailed-program">
+	<div class="table">
+	{% for talk in site.data.program %}
+	<div class="row">
+		<div class="when">{{talk.time}}</div>
+		<div class="who">
+			{% if talk.image != null %}
+				<div style="background-image: url(../assets/images/{{talk.image | default: 'owasp_logo.png'}})" alt="{{talk.name}} {{talk.company}}"></div>
+			{% endif %}
+			<span class="name">{{talk.name}}</span>
+			<span class="role">{{talk.company}}</span>
+		</div>
+		<div class="what">
+			<summary>{{talk.title}}</summary>
+			<p class="abstract">{{talk.abstract}}</p>
+			<!-- <p class="bio">{{talk.bio}}</p> -->
+		</div>
+	</div>
+	{% endfor %}
+	</div>
+</section>
+
+<section class="detailed-sponsors">
+{% for sponsortype in site.data.sponsors %}
+	{% if sponsortype.sponsors %}
+  	<h3>{{ sponsortype.type }} sponsors</h3>
+	  <div class="{{ sponsortype.type }}">
+		{% for sponsor in sponsortype.sponsors %}
+	    <a style="background-image: url(/assets/images/{{sponsor.logo}});{% if sponsor.backgroundSize %}background-size: {{sponsor.backgroundSize}};{% endif %}" title="{{sponsor.name}}" href="{{sponsor.url}}"></a>
+	  {% endfor %}
+	  </div>
+  {% endif %}
+{% endfor %}
+</section>
+
