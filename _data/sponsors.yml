@@ -25,3 +25,8 @@
   - logo: schibsted.png
     name: Schibsted
     url: https://www.schibsted.com/
+- type: Venue
+  sponsors:
+  - logo: ifi.png
+    name: IFI
+    url: https://www.mn.uio.no/ifi/
