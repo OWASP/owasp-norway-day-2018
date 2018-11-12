@@ -1,0 +1,15 @@
+---
+title: Sponsors
+---
+<section class="sponsors big">
+{% for sponsortype in site.data.sponsors %}
+	{% if sponsortype.sponsors %}
+	  <div class="{{ sponsortype.type }}">
+		{% for sponsor in sponsortype.sponsors %}
+	    <a style="background-image: url(/assets/images/{{sponsor.logo}});{% if sponsor.backgroundSize %}background-size: {{sponsor.backgroundSize}};{% endif %}" title="{{sponsor.name}}" href="{{sponsor.url}}"></a>
+	  {% endfor %}
+	  </div>
+  {% endif %}
+{% endfor %}
+</section>
+

@@ -26,3 +26,19 @@
 		}
 	}
 }
+.sponsors.big {
+	div {
+		a {
+			width: 100px;
+			height: 70px;
+		}
+		&.Gold a {
+			width: 200px;
+			height: 100px;
+		}
+		&.Platinum a {
+			width: 90%;
+			height: 150px;
+		}
+	}
+}
