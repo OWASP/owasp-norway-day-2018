@@ -60,14 +60,12 @@
   title: Lunch break
   abstract:
   time: "13:00"
-- name: Thomas Gøytil
-  company: Klaveness Digital
-  image: thomas3.jpg
-  bio: |
-    Thomas works as head of security at Klaveness Digital, a company leading the digitization of shipping. His background is as a developer and security tester. Thomas is passionate about web application security and loves to sharpen his skills by doing bug bounty and helping developers to write secure code. 
-  title: Staying on course with off-cors - How to test your application for misconfigured CORS headers
-  abstract: |
-    Configuring CORS headers on a web applications or API can be hard for developers, especially if you want to allow multiple cross-origin domains. To make the configuration secure is even harder. In this talk I will show how to test for misconfigured CORS headers, show how to configure CORS headers correctly, common pitfalls and attacks. I will end the talk with a release of my new open source tool - Off-cors. Off-cors is a small scanner written in Python to check for misconfigured CORS headers in your web application or API. Off-cors can be integrated with your DevOps pipeline, run as part of your bug bounty recon pipeline, or just as a standalone client against a single web application or API.
+- name: TBA
+  company: 
+  image: 
+  bio: 
+  title: TBA
+  abstract: 
   time: "13:45"
 - name: Alan Saied
   company: Visma
@@ -101,5 +99,3 @@
   title: Closing
   abstract:
   time: "17:30"
-  
-  
