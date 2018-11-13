@@ -106,7 +106,11 @@ section.map {
 	background: url('../images/uio.png');
 	background-size: cover;
 	background-position: center center;
-	height: 20em;
+	height: 23em;
+	p {
+		margin-top: 20em;
+		text-align: center;
+	}
 }
 section {
 	padding: 3em 10%;

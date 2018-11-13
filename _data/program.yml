@@ -2,8 +2,15 @@
   company:
   image:
   bio:
+  title: Registration open
+  abstract: Coffee, tea and croissants will be served.
+  time: "08:30"
+- name:
+  company:
+  image:
+  bio:
   title: Welcome
-  abstract:
+  abstract: Conference starts!
   time: "09:00"
 - name: Scott Helme
   company: Security Researcher
