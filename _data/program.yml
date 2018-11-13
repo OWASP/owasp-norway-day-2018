@@ -82,6 +82,13 @@
   abstract: |
     The ability to mathematically classify patterns, predict events and/or identify abnormalities within a wide range of data is known as Machine Learning. For the purpose of this conference , we explain the power of data and how it can be used with Machine Learning models to identify abnormal behaviour within complex environments. We also explain the ingredients and the steps required to build a Machine Learning models to serve security tasks. This will further be followed by its complications in terms of false positives, accuracy of detection and validity of model and how this can be improved. 
   time: "14:45"
+- name:
+  company:
+  image:
+  bio:
+  title: 
+  abstract: Coffee, tea and croissants will be served.
+  time: "15:30"
 - name: Patricia Aas
   company: TurtleSec
   image: patricia_aas.jpg
