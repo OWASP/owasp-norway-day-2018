@@ -34,7 +34,7 @@ footer: Main page photo by <a href="https://www.flickr.com/people/91545223@N00">
 <section class="detailed-sponsors">
 {% for sponsortype in site.data.sponsors %}
 	{% if sponsortype.sponsors %}
-  	<h3>{{ sponsortype.type }} sponsors</h3>
+  	<h3>{{ sponsortype.type }} sponsor{% if sponsortype.sponsors.size > 1 %}s{% endif %}</h3>
 	  <div class="{{ sponsortype.type }}">
 		{% for sponsor in sponsortype.sponsors %}
 	    <a style="background-image: url(/assets/images/{{sponsor.logo}});{% if sponsor.backgroundSize %}background-size: {{sponsor.backgroundSize}};{% endif %}" title="{{sponsor.name}}" href="{{sponsor.url}}"></a>
