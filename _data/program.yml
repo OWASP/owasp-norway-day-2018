@@ -67,12 +67,14 @@
   title: Lunch break
   abstract:
   time: "13:00"
-- name: TBA
-  company: 
-  image: 
-  bio: 
-  title: TBA
-  abstract: 
+- name: Erlend Oftedal
+  company: Blank AS
+  image: erlend.jpg
+  bio: Security guy at Blank. Works as a developer, security architect and security tester. Open source security tool maintainer and bug bounty hunter.
+  title: Modern Web Application Vulnerabilities
+  abstract: |
+    With the emerging popularity of bug bounty programs, lesser known and even brand new vulnerability classes are gaining popularity.
+    This talk will give a walk-though of some of these vulnerabilities, how they occur in modern web applications and how they can be found and fixed. 
   time: "13:45"
 - name: Alan Saied
   company: Visma
